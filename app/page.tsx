@@ -1,6 +1,9 @@
 import Image from "next/image";
-
-
+import Image1 from "@/app/media/logos/eClinicalWorks.svg";
+import Image2 from "@/app/media/logos/MedBridge.svg";
+import Image3 from "@/app/media/logos/WELL.svg";
+import Image4 from "@/app/media/logos/healow.svg";
+import Image5 from "@/app/media/logos/Acentra-Health.svg";
 export default function Home() {
   return (
     <>
@@ -27,8 +30,44 @@ export default function Home() {
           <div className="flex flexx-wrap items-center justify-center gap-x-4 gap-y-6 2xl:gap-12 xl:justify-between xl:mx-0">
             <div>
               <Image
-                src="/images/forbes.png"
-                alt="Forbes Logo"
+                src={Image1}
+                alt="Logo"
+                width={155.7}
+                height={19.43}
+                className="w-28 xl:w-[151px]"
+                />
+            </div>
+            <div>
+              <Image
+                src={Image2}
+                alt="Logo"
+                width={155.7}
+                height={19.43}
+                className="w-28 xl:w-[151px]"
+                />
+            </div>
+            <div>
+              <Image
+                src={Image3}
+                alt="Logo"
+                width={155.7}
+                height={19.43}
+                className="w-28 xl:w-[151px]"
+                />
+            </div>
+            <div>
+              <Image
+                src={Image4}
+                alt="Logo"
+                width={155.7}
+                height={19.43}
+                className="w-28 xl:w-[151px]"
+                />
+            </div>
+            <div>
+              <Image
+                src={Image5}
+                alt="Logo"
                 width={155.7}
                 height={19.43}
                 className="w-28 xl:w-[151px]"
